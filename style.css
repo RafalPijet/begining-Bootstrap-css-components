@@ -1,0 +1,75 @@
+* {box-sizing: border-box;}
+
+body {
+    margin: 0;
+    padding: 50px 0;
+    background-color: #2f3542;
+}
+
+img {
+    width: 290px;
+    height: 190px;
+    object-fit: cover;
+}
+
+footer {margin-top: 50px;}
+
+.first {background-color: #a4b0be;}
+
+.first h1, .first .primary {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.first .jumbotron {
+    background-image: url(https://images.pexels.com/photos/289586/pexels-photo-289586.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    background-size: cover;
+    height: 100vh;
+    min-height: 700px;
+    color: #ff6348;
+    text-shadow: 5px 5px 5px #000000;
+    text-align: center;
+}
+
+.first .jumbotron h1 {margin-top: calc(100vh / 3);}
+
+.second {
+    background-color: #57606f;
+    color: #ffffff;
+}
+
+.third {
+    background-color: #747d8c;
+    color: #eccc68;
+}
+
+.third table {
+    font-family: "Cabin", sans-serif;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.third .band img {
+    width: 530px;
+    height: 330px;
+    object-fit: cover;
+}
+
+.third .media {color: #dfe4ea;}
+
+.third .media img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+}
+
+.fourth {
+    background-color: #2f3542;
+    color: #ff7f50;
+}
+
+
+
+
+
