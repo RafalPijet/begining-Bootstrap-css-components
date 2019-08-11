@@ -50,9 +50,35 @@
     </div>
     <div class="container text-center">
         <div class="row flex-center">
-            <h1>Lorem ipsum<small>dolor sit</small></h1>
+            <h1 id="output">Lorem ipsum<small>dolor sit</small></h1>
+            <div id="page-wrapper">
+                <div class="box">
+                    <header>I'm first!</header>
+                    <p>...</p>
+                </div>
+                <div class="box">
+                    <header id="box-header">I have id!</header>
+                    <p>Dolor sit amet.</p>
+                </div>
+                <div class="box" id="box1">
+                    <header>First</header>
+                    <p>Lorem ipsum</p>
+                </div>
+                <div class="box" id="box2">
+                    <header>Second</header>
+                    <p>Dolor sit amet.</p>
+                </div>
+                <div class="box" id="box3">
+                    <header>Third</header>
+                    <p>Lorem ipsum</p>
+                </div>
+                <div class="box" id="box4">
+                    <header>Fourth</header>
+                    <p>Lorem ipsum</p>
+                </div>
+            </div>
             <div class="primary">
-                <button class="btn btn-primary btn-lg">Primary</button>
+                <button class="btn btn-primary btn-lg" id="1">Primary</button>
             </div>
         </div>
     </div>
@@ -253,5 +279,6 @@
 </footer>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+<script src="script.js"></script>
 </body>
 </html>
